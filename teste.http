@@ -1,0 +1,31 @@
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+  "name": "Everson Nascimento",
+  "email": "email@email.com",
+  "password": "senhadificil"
+}
+
+###
+GET http://localhost:3000/user
+
+###
+PUT http://localhost:3000/user/a8888120-7233-4806-a98f-dfe4b6910e7b
+Content-Type: application/json
+
+{
+  "name": {
+    "firstName": "Everson",
+    "lastName": "Vinicius"
+  },
+  "email": "jessica@email.com"
+}
+
+###
+DELETE http://localhost:3000/user/a49e4323-2298-4ed0-89fa-0683518f9a7e
+Content-Type: application/json
+
+###
+
+GET http://localhost:3000/product
